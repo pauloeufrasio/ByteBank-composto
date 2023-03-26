@@ -1,8 +1,9 @@
 public class Cliente {
+    // Criando get quando o valor so retorna
     public String getNome() {
         return nome;
     }
-
+    // Criando set quando for edita alguma informação
     public void setNome(String nome) {
         this.nome = nome;
     }
