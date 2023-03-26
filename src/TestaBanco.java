@@ -8,7 +8,7 @@ public class TestaBanco {
         paulo.titular.setCpf(" 459.638.908-02 ");
         paulo.titular.setProfissão("Auxiliar Administrativo");
         // Criando conta do paulo.
-        Conta contaDoPaulo = new Conta();
+        Conta contaDoPaulo = new Conta(5445,02350);
         contaDoPaulo.deposita(200);
         // Printando na tela.
         System.out.println(paulo.titular.getNome());

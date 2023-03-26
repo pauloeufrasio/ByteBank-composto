@@ -2,11 +2,18 @@ public class Conta {
     // Declarando os atributos da classe conta Privados
     private double saldo;
     private int agencia;
+    // Criando construtor e passando parametro agencia e numero como argumento ou seja toda vez que instanciar a classe Conta terá que ter agencia e numero
+    public Conta (int agencia,int numero){
+        this.agencia = agencia;
+        this.numero = numero;
+        System.out.println(" Estou criando uma conta " + agencia);
 
+    }
+    // Criando get quando o valor so retorna
     public double getSaldo() {
         return saldo;
     }
-
+    // Criando set quando for edita alguma informação
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
@@ -15,15 +22,22 @@ public class Conta {
         return agencia;
     }
 
+    // Criando condição Não pode valor menor ou igual a zero
     public void setAgencia(int agencia) {
+        if (agencia <= 0 ) {
+            System.out.println(" Não pode valor menor ou igual a zero ");
+        }
         this.agencia = agencia;
     }
 
     public int getNumero() {
         return numero;
     }
-
+    // Criando condição Não pode valor menor ou igual a zero
     public void setNumero(int numero) {
+        if (numero <= 0 ) {
+            System.out.println(" Não pode valor menor ou igual a zero ");
+        }
         this.numero = numero;
     }
 

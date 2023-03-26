@@ -1,7 +1,7 @@
 public class TesteSacaNegativo {
     public static void main(String[] args) {
         // Instanciado classe
-        Conta conta = new Conta();
+        Conta conta = new Conta(2545,5151);
         // Atribuindo valor para método deposita
         conta.deposita(100);
         // Sacando valor por metodo saca

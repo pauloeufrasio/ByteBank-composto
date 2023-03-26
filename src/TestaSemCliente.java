@@ -1,7 +1,7 @@
 public class TestaSemCliente {
     public static void main(String[] args) {
         // Instanciando classes .
-        Conta marcela = new Conta();
+        Conta marcela = new Conta(2115,024);
         Cliente clienteMarcela = new Cliente();
         // Criando referencia titular atraves da classe Cliente
         clienteMarcela.titular = new Cliente();
