@@ -6,12 +6,12 @@ public class TestaSemCliente {
         // Criando referencia titular atraves da classe Cliente
         clienteMarcela.titular = new Cliente();
         // Atribuindo informações pra clienteMarcela
-        clienteMarcela.titular.nome =" Marcela ";
-        clienteMarcela.titular.cpf =" 123.456.789-10 ";
-        clienteMarcela.titular.profissão =" Marcela ";
+        clienteMarcela.titular.setNome(" Marcela ");
+        clienteMarcela.titular.setCpf(" 123.456.789-10 ");
+        clienteMarcela.titular.setProfissão(" Marcela ");
         // Printando o valor na tela
-        System.out.println(clienteMarcela.titular.nome);
-        System.out.println(clienteMarcela.titular.cpf);
-        System.out.println(clienteMarcela.titular.profissão);
+        System.out.println(clienteMarcela.titular.getNome());
+        System.out.println(clienteMarcela.titular.getCpf());
+        System.out.println(clienteMarcela.titular.getProfissão());
     }
 }
