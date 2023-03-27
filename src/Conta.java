@@ -5,9 +5,6 @@ public class Conta {
     // Criando atributo static obs: static é um metodo da classe e metodos static pra invocar voce chama atraves da classe
     private static int total=0;
 
-
-
-
     public static void setTotal(int total) {
         Conta.total = total;
     }
