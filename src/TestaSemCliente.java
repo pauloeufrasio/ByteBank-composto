@@ -13,5 +13,6 @@ public class TestaSemCliente {
         System.out.println(clienteMarcela.titular.getNome());
         System.out.println(clienteMarcela.titular.getCpf());
         System.out.println(clienteMarcela.titular.getProfissão());
+        Conta conta2 = new Conta(1445,5454);
     }
 }
