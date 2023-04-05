@@ -1,6 +1,6 @@
-public class Conta {
+public abstract class Conta {
     // Declarando os atributos da classe conta Privados
-    private double saldo;
+    protected double saldo;
     private int agencia;
     // Criando atributo static obs: static é um metodo da classe e metodos static pra invocar voce chama atraves da classe
     private static int total=0;
@@ -8,6 +8,7 @@ public class Conta {
     public static void setTotal(int total) {
         Conta.total = total;
     }
+
 
     public static int getTotal() {
         return total;
